@@ -6,9 +6,9 @@
 
 ### 游戏截图
 
-![1530526077843](C:\Users\pzq\Desktop\cpp\aircraft-new\data\screen1.png)
+![1530526077843](data\screen1.png)
 
-![1530526102780](C:\Users\pzq\Desktop\cpp\aircraft-new\data\screen2.png)
+![1530526102780](data\screen2.png)
 
 ### 说明
 
