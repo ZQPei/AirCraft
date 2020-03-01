@@ -12,29 +12,18 @@
 
 ### 说明
 
-资源文件在`data`目录下，如果想直接体验游戏内容，可以直接运行`aircraft.exe`。
+资源文件在`output/data`目录下，如果想直接体验游戏内容，可以直接运行`output/aircraft.exe`。
 
-如果想查看源码，建议下载DEVCPP，可以直接打开`AirCraft.dev`项目文件。
+`main.c`是主函数，`aircraft.h`是库函数，总共300行左右。
 
-整个游戏用C语言编程，`main.c`是主函数，`aircraft.h`是库函数，总共300行左右。
+其中用到acllib框架，包括两个文件：`acllib.h`，`acllib.c`，框架由浙江大学开发。
 
-其中用到acllib框架，框架就在主目录下，包括两个文件：`acllib.h`，`acllib.c`，框架由浙江大学开发。
+### 编译运行
 
-### 框架使用方法
+课程中使用的是Dev-c++，然而在windows下使用visual studio会更加方便，这样就不用导入额外的库了。
 
-需要在链接选项中加入如下路径，注意把路径修改为DEVCPP的安装路径。
+用VS打开项目文件`Aircraft.sln`，然后生成解决方案，建议使用VS2015及以上版本，这样可以保证兼容。
 
-/*
-For Dev C++, these lib files need to be added into linker options.
-Be sure to change the leading folders as your installation.
-"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libwinmm.a"
-"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libmsimg32.a"
-"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libkernel32.a"
-"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libuser32.a"
-"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libgdi32.a"
-"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libole32.a"
-"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/liboleaut32.a"
-"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib/libuuid.a"
-*/
+如果希望使用Dev-c++，并对此有困惑的同学，可以发邮件至`dfzszpzq@qq.com`。
 
-# AirCraft
+
