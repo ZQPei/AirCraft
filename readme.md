@@ -30,6 +30,6 @@
 
 使用gcc编译的话，可以参考`Aircraft/makefile`，不进行详述。
 
-如果希望使用Dev-c++，并对此有困惑的同学，可以发邮件至`dfzszpzq@163.com`进行询问。
+如果希望使用Dev-c++，可以切换到`devcpp`分支，对此有困惑的同学，可以发邮件至`dfzszpzq@163.com`进行询问。
 
 
