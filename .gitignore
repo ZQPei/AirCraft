@@ -1,0 +1,11 @@
+.vs/
+Debug/
+Release/
+x64/
+
+*.exe
+*.iobj
+*.ipdb
+*.pdb
+*.sdf
+*.opensdf
