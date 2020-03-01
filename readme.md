@@ -20,9 +20,15 @@
 
 ### 编译运行
 
+#### 1. 使用 Visual Studio
+
 课程中使用的是Dev-c++，然而在windows下使用visual studio会更加方便，这样就不用导入额外的库了。
 
 用VS打开项目文件`Aircraft.sln`，然后生成解决方案，建议使用VS2015及以上版本，这样可以保证兼容。
+
+#### 2. 使用 GCC / Dev-c++
+
+使用gcc编译的话，可以参考`Aircraft/makefile`，不进行详述。
 
 如果希望使用Dev-c++，并对此有困惑的同学，可以发邮件至`dfzszpzq@qq.com`进行询问。
 
